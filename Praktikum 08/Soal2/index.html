@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Fabio 2172014">
+    <title>Soal 2</title>
+</head>
+<body>
+    <script>
+        let bilangan = prompt("Bilangan yang ingin di cek");
+        let ab  = 0;
+        for (let i =1 ;i<=bilangan; i++){
+        if (bilangan%i == 0){
+            ab++
+        }
+    }
+        if (ab == 2){
+            document.write("Bilangan "+bilangan+" adalah bilangan prima");
+        }
+        else{
+            document.write("Bilangan "+bilangan+" bukan bilangan prima");
+        }
+    </script>
+</body>
+</html>
